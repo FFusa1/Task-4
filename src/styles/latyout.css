@@ -12,6 +12,19 @@
   img {
     width: 100%;
   }
+
+.relative{
+  position: relative;
+}
+
+  .absolute{
+    position: absolute;
+  }
+
+.front{
+  z-index: 1;
+}
+
   .flex {
     display: flex;
   }
@@ -96,6 +109,14 @@
   .w-100 {
     width: 100%;
   }
+
+  .w-494{
+    width: 494px;
+  }
+
+.h-350{
+  height: 346px;
+}
   a {
     text-decoration: none;
     color: black;
@@ -110,6 +131,15 @@
   .p-50 {
     padding: 50px;
   }
+
+  .p-10{
+    padding: 10px;
+  }
+
+  .p-20{
+    padding: 20px;
+  }
+
   .bg-gray {
     background-color: #f3f3f3;
   }
@@ -124,6 +154,10 @@
   }
   .border-rounded {
     border-radius: 45px;
+  }
+
+  .border-rounded-button{
+    border-radius: 16px;
   }
   .box-shadow {
     box-shadow: 0px 5px 0px 0px #191a23;
@@ -150,4 +184,8 @@
   
   .w-500 {
     width: 486px;
+  }
+  
+  .gap-275{
+    gap:275px;
   }
